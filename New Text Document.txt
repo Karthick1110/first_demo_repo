@@ -1,0 +1,6 @@
+
+
+with open(filename, 'readmode') as fileObject:
+	fileObject.read() # read entire file in a single line
+	fileObject.readlines() # return each line in the file as list
+
